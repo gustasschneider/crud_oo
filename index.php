@@ -7,7 +7,7 @@ $contato = new Contato();
     <meta charset="UTF-8" />
 	<title>Site de contatos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="assets/js/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="assets/css/estilo.css" type="text/css"/>
 	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
