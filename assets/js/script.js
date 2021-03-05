@@ -24,3 +24,28 @@ $(function(){
     })
 
 });
+
+function adicionar(){
+    $('#modal').modal('show');
+}
+
+function editar(id_contato){
+
+	$.ajax({
+		url:'editar.php',
+		type:'POST',
+		data:{id_contato: id_contato},
+		beforeSend: function () {
+			$('#modal').find('.modal-body').html('Carregando...');
+            $('#modal').modal('show');
+        },
+		success: function (html) {
+            $('#modal').find('.modal-body').html(html);
+            $('#modal').modal('show');
+        }
+	});
+}
+
+function excluir(){
+    $('#modal').modal('show');
+}

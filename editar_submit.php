@@ -1,15 +1,12 @@
 <?php
 include 'contato.class.php';
-$contato = new Contato();
+$Contato = new Contato();
 
-if(!empty($_POST['id'])) {
-	$nome = $_POST['nome'];
-	$email = $_POST['email'];
-	$id = $_POST['id'];
+$postData = new stdClass;
 
-	if(!empty($email)) {
-		$contato->editar($nome, $email, $id);
-	}
-
-	header("Location: index.php");
+foreach ($_POST as $key => $value){
+    $postData->$key = $value;
 }
+
+echo $Contato->editar($postData);
+?>
