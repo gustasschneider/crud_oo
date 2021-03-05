@@ -7,12 +7,12 @@ class Contato {
 		$this->pdo = new PDO("mysql:dbname=crudoo;host=localhost", "root", "");
 	}
 
-	public function adicionar($email, $nome = '') {
-		if($this->existeEmail($email) == false) {
-			$sql = "INSERT INTO contatos (nome, email) VALUES (:nome, :email)";
+	public function adicionar($postData) {
+		if($this->existeEmail($postData->frm_add_email) == false) {
+			$sql = "INSERT INTO contatos (cnto_nome, cnto_email) VALUES (:cnto_nome, :cnto_email)";
 			$sql = $this->pdo->prepare($sql);
-			$sql->bindValue(':nome', $nome);
-			$sql->bindValue(':email', $email);
+			$sql->bindValue(':cnto_nome', $postData->frm_add_nome);
+			$sql->bindValue(':cnto_email', $postData->frm_add_email);
 			$sql->execute();
 
 			return true;
@@ -88,6 +88,12 @@ class Contato {
 		}
 	}
 
+    public function ativarContato($id_contato) {
+        $sql = "UPDATE contatos SET cnto_status = 'S' WHERE cnto_id = :cnto_id";
+        $sql = $this->pdo->prepare($sql);
+        $sql->bindValue(':cnto_id', $id_contato);
+        $sql->execute();
+    }
 
 
 }

@@ -26,7 +26,17 @@ $(function(){
 });
 
 function adicionar(){
-    $('#modal').modal('show');
+    $.ajax({
+        url:'adicionar.php',
+        beforeSend: function () {
+            $('#modal').find('.modal-body').html('Carregando...');
+            $('#modal').modal('show');
+        },
+        success: function (html) {
+            $('#modal').find('.modal-body').html(html);
+            $('#modal').modal('show');
+        }
+    });
 }
 
 function editar(id_contato){
@@ -62,6 +72,45 @@ function excluir(id_contato){
     });
 }
 
+function ativar(id_contato){
+    $.ajax({
+        url:'ativar.php',
+        type:'POST',
+        data:{id_contato: id_contato},
+        success: function () {
+            setBoxSucessoAutoHide("boxResultadoIndex","Contato ATIVADO.", true);
+            setTimeout(function () {
+                $('#modal').modal('hide');
+                window.location.href = window.location.href;
+            }, 2000);
+        }
+    });
+}
+
 function fechar() {
     $('#modal').modal('hide');
+}
+
+function setBoxErrorAutoHide(dvID, texto, dropDown) {
+    $("#" + dvID).html('<div class="alert alert-danger" role="alert"><h4 class="alert-heading">Erro!</h4> ' + texto + '</div>');
+
+    if(dropDown){
+        $("#" + dvID).slideDown("fast");
+    }
+
+    setTimeout(function () {
+        $("#" + dvID).slideUp("fast");
+    }, 5000);
+}
+
+function setBoxSucessoAutoHide(dvID, texto, dropDown) {
+    $("#" + dvID).html('<div class="alert alert-success" role="alert"><h4 class="alert-heading">Tudo certo!</h4> ' + texto + '</div>');
+
+    if(dropDown){
+        $("#" + dvID).slideDown("fast");
+    }
+
+    setTimeout(function () {
+        $("#" + dvID).slideUp("fast");
+    }, 5000);
 }

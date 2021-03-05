@@ -1,12 +1,12 @@
 <?php
 include 'contato.class.php';
-$contato = new Contato();
+$Contato = new Contato();
 
-if(!empty($_POST['email'])) {
-	$nome = $_POST['nome'];
-	$email = $_POST['email'];
+$postData = new stdClass;
 
-	$contato->adicionar($email, $nome);
-
-	header("Location: index.php");
+foreach ($_POST as $key => $value){
+    $postData->$key = $value;
 }
+
+echo $Contato->adicionar($postData);
+?>
