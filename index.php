@@ -18,7 +18,15 @@ $contato = new Contato();
 <div class="container">
     <h1 style="text-align: center">Contatos</h1>
 
-    <a class="btn btn-success btn-lg" style="color: white" onclick="adicionar();">Adicionar</a><br/><br/>
+    <button class="btn btn-success btn-lg"
+            data-toggle="tooltip"
+            data-placement="bottom"
+            title="Cadastrar um contato!"
+            style="color: white"
+            onclick="adicionar();">
+        Adicionar
+    </button>
+    <br/><br/>
 
     <!--div p/ deixar a tabela responsiva-->
     <div class="table-responsive">
@@ -79,5 +87,10 @@ $contato = new Contato();
 </div>
 <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    })
+</script>
 </body>
 </html>
