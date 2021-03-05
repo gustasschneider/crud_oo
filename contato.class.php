@@ -61,10 +61,10 @@ class Contato {
 		}
 	}
 
-	public function excluirPeloId($id) {
-		$sql = "DELETE FROM contatos WHERE id = :id";
+	public function excluirPeloId($id_contato) {
+		$sql = "UPDATE contatos SET cnto_status = 'N' WHERE cnto_id = :cnto_id";
 		$sql = $this->pdo->prepare($sql);
-		$sql->bindValue(':id', $id);
+		$sql->bindValue(':cnto_id', $id_contato);
 		$sql->execute();
 	}
 
