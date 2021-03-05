@@ -92,7 +92,7 @@ function fechar() {
 }
 
 function setBoxErrorAutoHide(dvID, texto, dropDown) {
-    $("#" + dvID).html('<div class="alert alert-danger" role="alert"><h4 class="alert-heading">Erro!</h4> ' + texto + '</div>');
+    $("#" + dvID).html('<div class="alert alert-danger fade show" role="alert"><h4 class="alert-heading">Erro!</h4> ' + texto + '</div>');
 
     if(dropDown){
         $("#" + dvID).slideDown("fast");
@@ -104,7 +104,7 @@ function setBoxErrorAutoHide(dvID, texto, dropDown) {
 }
 
 function setBoxSucessoAutoHide(dvID, texto, dropDown) {
-    $("#" + dvID).html('<div class="alert alert-success" role="alert"><h4 class="alert-heading">Tudo certo!</h4> ' + texto + '</div>');
+    $("#" + dvID).html('<div class="alert alert-success fade show" role="alert"><h4 class="alert-heading">Tudo certo!</h4> ' + texto + '</div>');
 
     if(dropDown){
         $("#" + dvID).slideDown("fast");
