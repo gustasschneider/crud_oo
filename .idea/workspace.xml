@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5dc5fb2a-cf47-48f5-9596-14090a9c6a7c" name="Default" comment="implemntação tooltipe" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>boxResultadoindex</find>
+      <find>tooltip</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/css/estilo.css" />
+        <option value="$PROJECT_DIR$/editar_submit.php" />
+        <option value="$PROJECT_DIR$/excluir_submit.php" />
+        <option value="$PROJECT_DIR$/adicionar_submit.php" />
+        <option value="$PROJECT_DIR$/excluir.php" />
+        <option value="$PROJECT_DIR$/editar.php" />
+        <option value="$PROJECT_DIR$/ativar.php" />
+        <option value="$PROJECT_DIR$/assets/js/script.js" />
+        <option value="$PROJECT_DIR$/assets/js/jquery-3.6.0.min.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/adicionar.php" />
+        <option value="$PROJECT_DIR$/contato.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="crud_oo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crud_oo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crud_oo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crud_oo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript/instrumento_bateria" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\projetos\devschneider\crud_oo\assets\css" />
+      <recent name="D:\wamp64\www\projetos\devschneider\crud_oo\assets\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dc5fb2a-cf47-48f5-9596-14090a9c6a7c" name="Default" comment="" />
+      <created>1614889740970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614889740970</updated>
+      <workItem from="1614889742343" duration="5091000" />
+      <workItem from="1614894866394" duration="243000" />
+      <workItem from="1614895525698" duration="221000" />
+      <workItem from="1614942740555" duration="22467000" />
+      <workItem from="1615199839823" duration="1194000" />
+      <workItem from="1619457110457" duration="35000" />
+      <workItem from="1619457204686" duration="599000" />
+      <workItem from="1633356234767" duration="3136000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit: Projeto CRUD em PHP 7 sup">
+      <created>1614893942670</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614893942670</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit: Projeto CRUD em PHP 7 sup">
+      <created>1614894451795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614894451795</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-Implementando modal utilizando Bootstrap com requisação via Ajax no metodo EIDTAR">
+      <created>1614953060622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614953060622</updated>
+    </task>
+    <task id="LOCAL-00004" summary="-Implementando modal utilizando Bootstrap com requisação via Ajax no metodo EXCLUIR">
+      <created>1614955359137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614955359137</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-Implementando modal utilizando Bootstrap com requisação via Ajax no metodo ADICIONAR;&#10;- Implementação das classes do bootstrap;">
+      <created>1614965948056</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614965948056</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ajustes">
+      <created>1614966986839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614966986839</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ajustes">
+      <created>1614967158548</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614967158548</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add arquivo jquery">
+      <created>1614967712768</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614967712768</updated>
+    </task>
+    <task id="LOCAL-00009" summary="implemntação tooltipe">
+      <created>1614968663509</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614968663509</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32986000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32954547" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit: Projeto CRUD em PHP 7 sup" />
+    <MESSAGE value="-Implementando modal utilizando Bootstrap com requisação via Ajax no metodo EIDTAR" />
+    <MESSAGE value="-Implementando modal utilizando Bootstrap com requisação via Ajax no metodo EXCLUIR" />
+    <MESSAGE value="-Implementando modal utilizando Bootstrap com requisação via Ajax no metodo ADICIONAR;&#10;- Implementação das classes do bootstrap;" />
+    <MESSAGE value="ajustes" />
+    <MESSAGE value="add arquivo jquery" />
+    <MESSAGE value="implemntação tooltipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemntação tooltipe" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="88" column="55" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="88" column="55" selection-start-line="88" selection-start-column="46" selection-end-line="88" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1106">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="81" column="30" lean-forward="true" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/assets/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/assets/css/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editar_submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excluir_submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="2" lean-forward="true" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/excluir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ativar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery-3.6.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="5" column="24645" selection-start-line="5" selection-start-column="24638" selection-end-line="5" selection-end-column="24645" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adicionar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adicionar_submit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contato.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
