@@ -1,5 +1,5 @@
 <?php
-include 'contato.class.php';
+require_once '../class/Contato.class.php';
 $contato = new Contato();
 ?>
 <html>
@@ -7,12 +7,12 @@ $contato = new Contato();
     <meta charset="UTF-8" />
 	<title>Site de contatos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="assets/css/estilo.css" type="text/css"/>
-    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/script.js"></script>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../assets/css/estilo.css" type="text/css"/>
+    <script type="text/javascript" src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/js/script.js"></script>
 </head>
 <body>
 

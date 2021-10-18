@@ -1,8 +1,6 @@
-<script type="text/javascript" src="assets/js/script.js"></script>
-
 <strong>Adicionar</strong>
 <hr/>
-<form method="POST" id="frmAdicionar" action="adicionar_submit.php">
+<form method="POST" id="frmAdicionar" action="../ajax/adicionar_submit.php">
 
     <div class="form-group">
         <label for="frm_add_nome">Nome:</label>
@@ -33,16 +31,22 @@
             return false;
         }else{
             $.ajax({
-                url: 'adicionar_submit.php',
+                url: 'ajax/adicionar_submit.php',
                 type: 'POST',
                 data: dados,
                 success: function (data) {
                     //console.info(data);
-                    setBoxSucessoAutoHide("boxResultado","Contato cadastrado com sucesso.", true);
-                    setTimeout(function () {
-                        $('#modal').modal('hide');
-                        window.location.href = window.location.href;
-                    }, 2000);
+                    var dataFinal = data.split(";");
+                    if (dataFinal[0] == 1) {
+                        setBoxSucessoAutoHide("boxResultado", dataFinal[1], true);
+                        setTimeout(function () {
+                            $('#modal').modal('hide');
+                            window.location.href = window.location.href;
+                        }, 2000);
+                    }else{
+                        setBoxErrorAutoHide("boxResultado",dataFinal[1], true);
+                    }
+
                 }
             });
         }

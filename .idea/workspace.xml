@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dc5fb2a-cf47-48f5-9596-14090a9c6a7c" name="Default" comment="update jquery-3.6.0.js">
+    <list default="true" id="5dc5fb2a-cf47-48f5-9596-14090a9c6a7c" name="Default" comment="ajustes">
+      <change afterPath="$PROJECT_DIR$/class/MySQL.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/contatos/modal/adicionar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adicionar_submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/contatos/ajax/adicionar_submit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ativar.php" beforeDir="false" afterPath="$PROJECT_DIR$/contatos/ajax/ativar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contato.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/class/Contato.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/contatos/modal/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editar_submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/contatos/ajax/editar_submit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excluir.php" beforeDir="false" afterPath="$PROJECT_DIR$/contatos/modal/excluir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excluir_submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/contatos/ajax/excluir_submit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/contatos/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/contatos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sqlStructOnlyData/contatos.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +48,20 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/contatos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\projetos\devschneider\crud_oo\contatos\ajax" />
+      <recent name="D:\wamp64\www\projetos\devschneider\crud_oo\contatos\modal" />
+      <recent name="D:\wamp64\www\projetos\devschneider\crud_oo\class" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\projetos\devschneider\crud_oo\contatos" />
+      <recent name="D:\wamp64\www\projetos\devschneider\crud_oo" />
       <recent name="D:\wamp64\www\projetos\devschneider\crud_oo\assets\js" />
       <recent name="D:\wamp64\www\projetos\devschneider\crud_oo\assets\css" />
     </key>
@@ -80,7 +98,7 @@
       <workItem from="1619457110457" duration="35000" />
       <workItem from="1619457204686" duration="599000" />
       <workItem from="1633356234767" duration="3136000" />
-      <workItem from="1634560461402" duration="4394000" />
+      <workItem from="1634560461402" duration="12058000" />
     </task>
     <task id="LOCAL-00001" summary="first commit: Projeto CRUD em PHP 7 sup">
       <created>1614893942670</created>
@@ -159,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634563280222</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ajustes">
+      <created>1634565048524</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1634565048524</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,36 +195,54 @@
     <MESSAGE value="-Implementando modal utilizando Bootstrap com requisação via Ajax no metodo EIDTAR" />
     <MESSAGE value="-Implementando modal utilizando Bootstrap com requisação via Ajax no metodo EXCLUIR" />
     <MESSAGE value="-Implementando modal utilizando Bootstrap com requisação via Ajax no metodo ADICIONAR;&#10;- Implementação das classes do bootstrap;" />
-    <MESSAGE value="ajustes" />
     <MESSAGE value="add arquivo jquery" />
     <MESSAGE value="implemntação tooltipe" />
     <MESSAGE value="adicionando o arquivo mysql" />
     <MESSAGE value="update jquery-3.6.0.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="update jquery-3.6.0.js" />
+    <MESSAGE value="ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustes" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="446" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634580239345">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="446" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634580239345" />
     <state x="436" y="-718" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1634563217001">
       <screen x="-94" y="-900" width="1600" height="870" />
     </state>
     <state x="436" y="-718" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634563217001" />
-    <state x="364" y="0" key="CommitChangelistDialog2" timestamp="1634564298329">
+    <state x="364" y="0" key="CommitChangelistDialog2" timestamp="1634583554366">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="332" y="-885" key="CommitChangelistDialog2/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634563998166" />
-    <state x="364" y="0" key="CommitChangelistDialog2/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634564298329" />
-    <state x="210" y="103" key="DiffContextDialog" timestamp="1634564297750">
+    <state x="364" y="0" key="CommitChangelistDialog2/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634583554366" />
+    <state x="210" y="103" key="DiffContextDialog" timestamp="1634583553663">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="152" y="-779" key="DiffContextDialog/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634563997283" />
-    <state x="210" y="103" key="DiffContextDialog/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634564297750" />
-    <state x="486" y="-710" key="FileChooserDialogImpl" timestamp="1634561529273">
-      <screen x="-94" y="-900" width="1600" height="870" />
+    <state x="210" y="103" key="DiffContextDialog/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634583553663" />
+    <state x="495" y="161" key="FileChooserDialogImpl" timestamp="1634580159271">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="486" y="-710" key="FileChooserDialogImpl/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634561529273" />
-    <state x="298" y="-732" key="Vcs.Push.Dialog.v2" timestamp="1634563285264">
-      <screen x="-94" y="-900" width="1600" height="870" />
+    <state x="495" y="161" key="FileChooserDialogImpl/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634580159271" />
+    <state x="448" y="93" key="NewPhpClassDialog" timestamp="1634582155387">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="448" y="93" key="NewPhpClassDialog/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634582155387" />
+    <state x="518" y="292" key="NewPhpFileDialog" timestamp="1634580074576">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="518" y="292" key="NewPhpFileDialog/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634580074576" />
+    <state x="498" y="72" key="RollbackChangesDialog" timestamp="1634580404749">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="498" y="72" key="RollbackChangesDialog/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634580404749" />
+    <state x="335" y="143" key="Vcs.Push.Dialog.v2" timestamp="1634565052162">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="298" y="-732" key="Vcs.Push.Dialog.v2/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634563285264" />
+    <state x="335" y="143" key="Vcs.Push.Dialog.v2/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634565052162" />
     <state x="416" y="-855" width="579" height="780" key="find.popup" timestamp="1634563561039">
       <screen x="-94" y="-900" width="1600" height="870" />
     </state>

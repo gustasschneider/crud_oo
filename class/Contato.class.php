@@ -1,10 +1,11 @@
 <?php
-class Contato {
+include_once ("MySQL.class.php");
+class Contato extends MySQL {
 
 	private $pdo;
 
 	public function __construct() {
-		$this->pdo = new PDO("mysql:dbname=crudoo;host=localhost", "root", "");
+        $this->pdo = parent::conexao();
 	}
 
 	public function adicionar($postData) {
@@ -15,9 +16,9 @@ class Contato {
 			$sql->bindValue(':cnto_email', $postData->frm_add_email);
 			$sql->execute();
 
-			return true;
+			return "1; Contato cadastrado com sucesso!";
 		} else {
-			return false;
+			return "0; Email ja cadastrado.";
 		}
 	}
 
@@ -55,10 +56,10 @@ class Contato {
 			$sql->bindValue(':cnto_id', $postData->frm_edit_id);
 			$sql->execute();
 
-			return true;
-		} else {
-			return false;
-		}
+            return "1; Contato foi Editado com sucesso!";
+        } else {
+            return "0; Email ja cadastrado.";
+        }
 	}
 
 	public function excluirPeloId($id_contato) {

@@ -27,7 +27,7 @@ $(function(){
 
 function adicionar(){
     $.ajax({
-        url:'adicionar.php',
+        url:'modal/adicionar.php',
         beforeSend: function () {
             $('#modal').find('.modal-body').html('Carregando...');
             $('#modal').modal('show');
@@ -42,7 +42,7 @@ function adicionar(){
 function editar(id_contato){
 
 	$.ajax({
-		url:'editar.php',
+		url:'modal/editar.php',
 		type:'POST',
 		data:{id_contato: id_contato},
 		beforeSend: function () {
@@ -58,7 +58,7 @@ function editar(id_contato){
 
 function excluir(id_contato){
     $.ajax({
-        url:'excluir.php',
+        url:'modal/excluir.php',
         type:'POST',
         data:{id_contato: id_contato},
         beforeSend: function () {
@@ -74,7 +74,7 @@ function excluir(id_contato){
 
 function ativar(id_contato){
     $.ajax({
-        url:'ativar.php',
+        url:'ajax/ativar.php',
         type:'POST',
         data:{id_contato: id_contato},
         success: function () {
