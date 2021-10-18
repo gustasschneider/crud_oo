@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dc5fb2a-cf47-48f5-9596-14090a9c6a7c" name="Default" comment="adicionando o arquivo mysql">
-      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.6.0.js" afterDir="false" />
+    <list default="true" id="5dc5fb2a-cf47-48f5-9596-14090a9c6a7c" name="Default" comment="update jquery-3.6.0.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +19,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>boxResultadoindex</find>
-      <find>tooltip</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,7 +80,7 @@
       <workItem from="1619457110457" duration="35000" />
       <workItem from="1619457204686" duration="599000" />
       <workItem from="1633356234767" duration="3136000" />
-      <workItem from="1634560461402" duration="2675000" />
+      <workItem from="1634560461402" duration="4394000" />
     </task>
     <task id="LOCAL-00001" summary="first commit: Projeto CRUD em PHP 7 sup">
       <created>1614893942670</created>
@@ -160,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634560761309</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update jquery-3.6.0.js">
+      <created>1634563280222</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1634563280222</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,24 +174,35 @@
     <MESSAGE value="add arquivo jquery" />
     <MESSAGE value="implemntação tooltipe" />
     <MESSAGE value="adicionando o arquivo mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando o arquivo mysql" />
+    <MESSAGE value="update jquery-3.6.0.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="update jquery-3.6.0.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="332" y="-885" key="CommitChangelistDialog2" timestamp="1634560757529">
+    <state x="436" y="-718" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1634563217001">
       <screen x="-94" y="-900" width="1600" height="870" />
     </state>
-    <state x="332" y="-885" key="CommitChangelistDialog2/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634560757529" />
-    <state x="152" y="-779" key="DiffContextDialog" timestamp="1634560685511">
-      <screen x="-94" y="-900" width="1600" height="870" />
+    <state x="436" y="-718" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634563217001" />
+    <state x="364" y="0" key="CommitChangelistDialog2" timestamp="1634564298329">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="152" y="-779" key="DiffContextDialog/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634560685511" />
+    <state x="332" y="-885" key="CommitChangelistDialog2/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634563998166" />
+    <state x="364" y="0" key="CommitChangelistDialog2/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634564298329" />
+    <state x="210" y="103" key="DiffContextDialog" timestamp="1634564297750">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="152" y="-779" key="DiffContextDialog/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634563997283" />
+    <state x="210" y="103" key="DiffContextDialog/0.0.1366.738/-94.-900.1600.870@0.0.1366.738" timestamp="1634564297750" />
     <state x="486" y="-710" key="FileChooserDialogImpl" timestamp="1634561529273">
       <screen x="-94" y="-900" width="1600" height="870" />
     </state>
     <state x="486" y="-710" key="FileChooserDialogImpl/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634561529273" />
-    <state x="298" y="-732" key="Vcs.Push.Dialog.v2" timestamp="1634560766159">
+    <state x="298" y="-732" key="Vcs.Push.Dialog.v2" timestamp="1634563285264">
       <screen x="-94" y="-900" width="1600" height="870" />
     </state>
-    <state x="298" y="-732" key="Vcs.Push.Dialog.v2/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634560766159" />
+    <state x="298" y="-732" key="Vcs.Push.Dialog.v2/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634563285264" />
+    <state x="416" y="-855" width="579" height="780" key="find.popup" timestamp="1634563561039">
+      <screen x="-94" y="-900" width="1600" height="870" />
+    </state>
+    <state x="416" y="-855" width="579" height="780" key="find.popup/0.0.1366.738/-94.-900.1600.870@-94.-900.1600.870" timestamp="1634563561039" />
   </component>
 </project>
