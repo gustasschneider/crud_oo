@@ -49,27 +49,27 @@ $contato = new Contato();
                 $status = "";
                 $displayInativo = "";
                 $displayAtivo = "";
+                $txtAtivoInativo = "";
+
                 if($item['cnto_status'] == 'N'){
                     $bg_color_status = "alert-danger";
                     $status = "INATIVO";
-                    $displayInativo = "none";
-                    $displayAtivo = "";
+                    $txtAtivoInativo = "Ativar";
                 }else{
                     $bg_color_status = "";
                     $status = "ATIVO";
-                    $displayAtivo = "none";
-                    $displayInativo = "";
+                    $txtAtivoInativo = "Desativar";
                 }
                 ?>
-                <tr class="<?=$bg_color_status;?>">
+                <tr class="<?= $bg_color_status; ?>">
                     <td><?php echo $item['cnto_id']; ?></td>
                     <td><?php echo $item['cnto_nome']; ?></td>
                     <td><?php echo $item['cnto_email']; ?></td>
                     <td><?php echo $status; ?></td>
                     <td style="color: white">
                         <a class="btn btn-primary btn-sm" onclick="editar('<?= $item['cnto_id'];?>');">Editar</a>
-                        <a style="display: <?=$displayInativo;?>" class="btn btn-danger btn-sm" onclick="excluir('<?= $item['cnto_id'];?>');">Excluir</a>
-                        <a style="display: <?=$displayAtivo;?>" class="btn btn-success btn-sm" onclick="ativar('<?= $item['cnto_id'];?>');">Ativar</a>
+                        <a class="btn btn-info btn-sm" onclick="ativarDesativar('<?= $item['cnto_id']; ?>', '<?= $item['cnto_status']; ?>');"><?= $txtAtivoInativo; ?></a>
+                        <a class="btn btn-danger btn-sm" onclick="excluir('<?= $item['cnto_id']; ?>');">Excluir</a>
                     </td>
                 </tr>
             <?php endforeach; ?>

@@ -1,11 +1,11 @@
 <?php
-    sleep(1);
-    include '../../class/Contato.class.php';
-    $contato = new Contato();
+sleep(2);
+include '../../class/Contato.class.php';
+$contato = new Contato();
 
-    $id_contato = $_POST['id_contato'];
+$id_contato = $_POST['id_contato'];
 
-    $info = $contato->getInfo($id_contato);
+$info = $contato->getInfo($id_contato);
 
 ?>
 <hr/>

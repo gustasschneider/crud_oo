@@ -63,7 +63,7 @@ class Contato extends MySQL {
 	}
 
 	public function excluirPeloId($id_contato) {
-		$sql = "UPDATE contatos SET cnto_status = 'N' WHERE cnto_id = :cnto_id";
+		$sql = "DELETE FROM contatos WHERE cnto_id = :cnto_id";
 		$sql = $this->pdo->prepare($sql);
 		$sql->bindValue(':cnto_id', $id_contato);
 		$sql->execute();
@@ -89,11 +89,22 @@ class Contato extends MySQL {
 		}
 	}
 
-    public function ativarContato($id_contato) {
-        $sql = "UPDATE contatos SET cnto_status = 'S' WHERE cnto_id = :cnto_id";
-        $sql = $this->pdo->prepare($sql);
-        $sql->bindValue(':cnto_id', $id_contato);
-        $sql->execute();
+    public function ativarDesativarContato($id_contato, $status_contato) {
+
+	    if($status_contato == 'N'){
+            $sql = "UPDATE contatos SET cnto_status = 'S' WHERE cnto_id = :cnto_id";
+            $sql = $this->pdo->prepare($sql);
+            $sql->bindValue(':cnto_id', $id_contato);
+            $sql->execute();
+            return "1; Contato foi ATIVADO com sucesso!";
+        }else{
+            $sql = "UPDATE contatos SET cnto_status = 'N' WHERE cnto_id = :cnto_id";
+            $sql = $this->pdo->prepare($sql);
+            $sql->bindValue(':cnto_id', $id_contato);
+            $sql->execute();
+            return "0; Contato foi INATIVADO com sucesso!";
+        }
+
     }
 
 

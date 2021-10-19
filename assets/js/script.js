@@ -72,17 +72,28 @@ function excluir(id_contato){
     });
 }
 
-function ativar(id_contato){
+function ativarDesativar(id_contato, status_contato){
     $.ajax({
-        url:'ajax/ativar.php',
+        url:'ajax/ativar_desativar_submit.php',
         type:'POST',
-        data:{id_contato: id_contato},
-        success: function () {
-            setBoxSucessoAutoHide("boxResultadoIndex","Contato ATIVADO.", true);
-            setTimeout(function () {
-                $('#modal').modal('hide');
-                window.location.href = window.location.href;
-            }, 2000);
+        data:{id_contato: id_contato, status_contato: status_contato},
+        success: function (data) {
+            console.log(data);
+            var dataFinal = data.split(";");
+            if (dataFinal[0] == 1) {
+                setBoxSucessoAutoHide("boxResultadoIndex", dataFinal[1], true);
+                setTimeout(function () {
+                    $('#modal').modal('hide');
+                    window.location.href = window.location.href;
+                }, 2000);
+            }else{
+                setBoxSucessoAutoHide("boxResultadoIndex", dataFinal[1], true);
+                setTimeout(function () {
+                    $('#modal').modal('hide');
+                    window.location.href = window.location.href;
+                }, 2000);
+            }
+
         }
     });
 }

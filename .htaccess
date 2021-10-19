@@ -1,0 +1,8 @@
+RewriteEngine On
+Options -Indexes
+SetEnv REDIS_HOST ""
+## Instância do banco
+SetEnv MYSQL_HOST "localhost"
+SetEnv MYSQL_USER "root"
+SetEnv MYSQL_PASSWORD ""
+SetEnv MYSQL_DB "crudoo"
